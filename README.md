@@ -62,7 +62,7 @@ runtimeTransport := httptransport.NewWithClient(
 )
 
 // 4. Create the Cerberius API client
-// This client provides methods for all API operations.
+// This client provides function for all API operations.
 apiClient := client.New(runtimeTransport, strfmt.Default)
 ```
 
